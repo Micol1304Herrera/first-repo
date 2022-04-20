@@ -3,3 +3,19 @@ body {
      background-color: rgb(80, 229, 255);
      font-size: large;
 }
+h1{
+    font-size: 2.5rem !important;
+}
+
+#carouselExampleIndicators .carousel-item img {  
+    object-fit: cover;
+    object-position: center;
+    overflow: hidden;
+    height:65vh;
+  }
+
+  @media (min-width: 768px) { 
+    h1{
+      font-size: 5.5rem !important;
+    }
+}
